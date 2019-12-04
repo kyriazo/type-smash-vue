@@ -1,9 +1,9 @@
 import { shallowMount } from "@vue/test-utils";
-import Header from "@/Header.vue";
+import Navigation from "@/components/Navigation.vue";
 
-describe("Header.vue", () => {
+describe("Navigation.vue", () => {
     it("is a Vue instance", () => {
-        const wrapper = shallowMount(Header);
+        const wrapper = shallowMount(Navigation);
         expect(wrapper.isVueInstance()).toBeTruthy();
     });
 });
