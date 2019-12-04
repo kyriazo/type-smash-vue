@@ -1,6 +1,8 @@
 <template>
     <div class="navigation-wrapper">
-        This is the navigation
+        <div class='title'></div>
+        <div class='logo'></div>
+        <div class='links-container'></div>
     </div>
 </template>
 
